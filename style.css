@@ -1,0 +1,430 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(33, 61, 97);
+}
+.logBox{
+    background-color: darkslateblue;
+    color: azure;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    border-color: yellow;
+    border-style: solid;
+}
+.logLabel{
+    font-size: 30px;
+    border-color: yellow;
+    border-radius: 20px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logInp{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 20px;
+    text-align: center;
+}
+.logBtn{
+    background-color: indigo;
+    color: azure;
+    font-size: 18px;
+    margin: 2px;
+    width: auto;
+    height: auto;
+    border-color: yellow;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-width: 1px;
+}
+.logBtn:hover{
+    background-color: darkgoldenrod;
+}
+.alert{
+    color: yellow;
+    font-weight: bold;
+}
+.homeLabel{
+    background-color: darkslateblue;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.1px;
+    padding: 14px;
+    margin-bottom: 1%;
+}
+.homeLink{
+    text-decoration: none;
+    color: azure;
+}
+.homeLabel:hover{
+    background-color: darkgoldenrod;
+}
+.homeTitle{
+    font-size: 20px;
+    margin-left: 2%;
+}
+.homeText{
+    font-size: 16px;
+    display: block;
+}
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    margin-bottom: 38px;
+    border-bottom-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+
+}
+.labelTitle{
+    font-size: 30px;
+    margin-left: auto;
+    color: azure;
+}
+.symbol{
+    font-weight: bolder;
+    color: brown;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 4px;
+    background-color: azure;
+    border-radius: 50px;
+}
+.rightLabel{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.2px;
+    padding: 4px;
+    float: right;
+    margin: 4px;
+}
+.rightLabel:hover{
+    background-color: darkgoldenrod;
+}
+.rightLabelSpan{
+    background-color: steelblue;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.2px;
+    float: right;
+    margin: 6px;
+}
+.botLabel{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    margin-top: 38px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+}
+.botBtn{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.2px;
+    padding: 4px;
+    margin: 6px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+.botBtn:hover{
+    background-color: darkgoldenrod;
+}
+.akunBtn{
+    color: azure;
+    text-decoration: none;
+    background-color: steelblue;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.akunBtn:hover{
+    background-color: skyblue;
+}
+.outBtn{
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    border: none;
+    background-color: brown;
+    font-size: 20px;
+    padding: 2px;
+}
+.outBtn:hover{
+    background-color: red;
+}
+.forumBox{
+    background-color: darkslateblue;
+    height: auto;
+    width: 90%;
+    max-width: 700px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 80px;
+    margin-bottom: 0.5px;
+    padding: 4px;
+}
+.forumBox:hover{
+    background-color: darkgoldenrod;
+}
+.forumLink{
+    color: azure;
+    text-decoration: none;
+    display: block;
+}
+.forumTitle{
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.forumBy{
+    margin-left: 1%;
+    color: gray;
+    font-size: 12px;
+}
+.forumOn{
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+}
+.forumSeri{
+    color: rgb(12, 151, 93);
+}
+.poscreatBox{
+    background-color: darkslateblue;
+    color: azure;
+    width: 80%;
+    max-width: 500px;
+    height: 500px;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: yellow;
+    border-style: solid;
+}
+.poscreatLabel{
+    font-size: 24px;
+    width: 50%;
+}
+.judulPoscreat{
+    display: block;
+    width: 80%;
+    height: 20px;
+}
+.isiPoscreat{
+    width: 90%;
+    height: 200px;
+}
+.poscreatBtn{
+    background-color: indigo;
+    color: azure;
+    font-size: 18px;
+    margin: 2%;
+    width: 30%;
+    height: 30px;
+    border-color: yellow;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.01px;
+}
+.poscreatBtn:hover{
+    background-color: darkgoldenrod;
+}
+.posBox{
+    background-color: rgb(231, 231, 231);
+    border-color: darkslateblue;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    height: auto;
+    padding: 6px;
+}
+.posTitle{
+    font-size: 18px;
+    font-weight: 500;
+    width: 70%;
+    max-width: 800px;
+}
+.posBy{
+    color: gray;
+    margin-left: 25px;
+}
+.posOn{
+    margin-left: 5px;
+    color: gray;
+    display: block;
+}
+.posIsi{
+    border-top: darkslateblue;
+    border-top-style: solid;
+    width: 90%;
+    max-width: 1000px;
+}
+.posSeri{
+    color: green;
+    display: block;
+    border-bottom: darkslateblue;
+    border-bottom-style: solid;
+    width: 90%;
+    max-width: 1000px;
+}
+.commentBtn{
+    width: auto;
+    height: auto;
+    padding: 2px;
+    margin-bottom: 8px;
+
+}
+.commentBoxInp{
+    margin-top: 2px;
+    background-color: gray;
+    width: auto;
+    min-height: 30px;
+    padding: 6px;
+    width: 70%;
+    max-width: 800px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.commentInp{
+    width: 98%;
+    height: 160px;
+}
+.commentNam{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 2%;
+}
+.commentOn{
+    display: block;
+    font-size: 11px;
+    color: gray;
+    margin-left: 2%;
+}
+.commentIsi{
+    font-size: 14px;
+    margin-left: 2%;
+}
+.commentBox{
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: darkslateblue;
+    border-width: 0.1px;
+    max-width: 40%;
+    padding: 8px;
+}
+.chatNama{
+    color: rgb(81, 201, 133);
+    font-weight: 600;
+    margin: 12px;
+}
+.chatTeks{
+    color: black;
+    display: block;
+}
+.chatOn{
+    color: rgb(63, 63, 63);
+    font-size: 13px;
+}
+.chatBox{
+    background-color: rgb(231, 231, 231);
+    width: 95%;
+    max-width: 700px;
+    padding: 12px;
+    border-top-style: ridge;
+    border-top-color: darkslateblue;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 450px;
+}
+.myChat{
+    background-color: rgb(75, 109, 173);
+    margin-bottom: 8px;
+    margin-left: 50%;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: right;
+}
+.theirChat{
+    background-color: rgb(75, 109, 173);
+    margin-bottom: 8px;
+    margin-right: 50%;
+    border-radius: 20px;
+    padding: 8px;
+}
+.corLabel{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.chatText{
+    width: 80%;
+}
+.chatForm{
+    background-color: darkslateblue;
+    width: 95%;
+    max-width: 700px;
+    padding: 12px;
+}
+.akBox{
+    background-color: darkslateblue;
+    color: azure;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    padding: 2%;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.1px;
+    margin-bottom: 20px;
+}
+.akLabel{
+    background-color: darkslateblue;
+    width: 80%;
+    max-width: 500px;
+    margin-left: 20px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.1px;
+    color: azure;
+    padding: 2px;
+}
+.akInp{
+    display: block;
+}
