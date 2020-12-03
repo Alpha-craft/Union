@@ -1,0 +1,126 @@
+<?php
+session_start();
+if($_SESSION["masuk"] == false){header("location:masuk.php");}
+
+if(isset($_POST["keluar"])){
+    session_unset();
+    session_destroy();
+    header("refresh:0.1");
+}
+?>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Home</title>
+        <style>
+            img[alt="www.000webhost.com"] {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Union</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.php" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forum/poscreat.php">Posting</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="btn-group mr-auto">
+                            <form method="POST">
+                                <button name="keluar" type="submit" class="btn btn-danger orba">Keluar</button>
+                            </form>
+                            <!-- <a href="akun.php" class="btn btn-primary"> -->
+                            <a class="btn btn-primary orba" href="akun.php">Akun</a>
+                            <!-- </a> -->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <!-- <div class="label">
+                <span class="rightLabelSpan">
+                    <form style="float: right;" method="POST">
+                        <button name="keluar" type="submit" class="outBtn">Keluar</button>
+                    </form>
+                    <a href="akun.php" class="akunBtn">Akun</a>
+                </span>
+                <span class="symbol">&#9876</span>
+                <span class="labelTitle">Union</span>
+            </div> -->
+            <div class="card-coloumns">
+                <div class="card bg-primary">
+                    <div class="card-body text-left">
+                        <a href="forum/forum.php" class="homeLink">
+                            <p class="card-text">
+                                <span class="homeTitle">Forum</span>
+                                <span class="homeText">Diskusikan berbagai topik dengan pengguna lain</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card bg-info">
+                    <div class="card-body text-right">
+                        <a href="corner/chatroom.php" class="homeLink">
+                            <p class="card-text">
+                                <span class="homeTitle">The Corner</span>
+                                <span class="homeText">Mengobrol dengan pengguna lain disini</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card bg-primary">
+                    <div class="card-body text-center">
+                        <a href="" class="homeLink">
+                            <p class="card-text">
+                                <span class="homeTitle">&#9734;Review</span>
+                                <span class="homeText">Tinggalkan saran atau laporkan bug untuk diperbaiki</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="botLabel">
+                    <a href="index.php" class="botBtn">Home</a>
+                    <a href="about.html" class="botBtn">About</a>
+                    <a href="forum/poscreat.php" class="botBtn">Posting</a>
+                </div> -->
+            </div>
+        </div>
+
+        <footer id="sticky-footer" class=" footer py-4 bg-dark text-white-50">
+            <div class="container text-center">
+                <small>Copyright &copy; Your Website</small>
+            </div>
+        </footer>
+    </body>
+
+    </html>
