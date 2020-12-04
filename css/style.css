@@ -1,6 +1,12 @@
 html,
 body {
+    background: linear-gradient(to right, #69d2e7, #a7dbd8);
     height: 100%;
+}
+
+a:link:hover {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 #page-content {
@@ -29,4 +35,8 @@ body {
 
 .lab {
     font-size: 2rem;
+}
+
+.jarak {
+    margin: 2rem;
 }
