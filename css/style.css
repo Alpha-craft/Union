@@ -40,3 +40,15 @@ a:link:hover {
 .jarak {
     margin: 2rem;
 }
+
+.card:hover {
+    background-color: #d2e603 !important;
+}
+
+.card-body:hover {
+    background-color: #2ec1ac;
+    color: black !important;
+    transform: translateY(-15px);
+    transition: all .3s ease-in-out;
+    border-radius: 1rem;
+}
