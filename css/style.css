@@ -41,8 +41,14 @@ a:link:hover {
     margin: 2rem;
 }
 
+.card {
+    background-color: #98acf8;
+}
+
 .card:hover {
     background-color: #d2e603 !important;
+    color: black !important;
+    border-radius: 1rem;
 }
 
 .card-body:hover {
